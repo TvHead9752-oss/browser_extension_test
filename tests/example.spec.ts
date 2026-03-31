@@ -99,3 +99,5 @@ test('theme toggle is available', async ({ page }) => {
   const hasThemeButton = await themeButton.count() > 0;
   expect(hasThemeButton || true).toBeTruthy(); // Make this test more lenient
 });
+
+
