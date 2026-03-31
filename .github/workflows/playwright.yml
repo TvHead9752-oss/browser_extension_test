@@ -1,6 +1,6 @@
 name: Playwright Tests
 on:
-  permenissions:
+  permissions:
     contents: write
   push:
     branches: [ main, master ]
